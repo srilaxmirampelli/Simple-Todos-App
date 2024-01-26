@@ -1,0 +1,53 @@
+/* Write your CSS here */
+body {
+  font-family: 'Roboto';
+}
+* {
+  box-sizing: border-box;
+}
+
+.simple-todos-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffc2a0;
+}
+.content-container {
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  border-width: 0;
+  padding: 35px;
+  margin: 30px;
+  width: 80vw;
+}
+.main-heading {
+  color: #ff8542;
+  font-weight: bold;
+  font-size: 35px;
+}
+.add-todo-container {
+  display: flex;
+  justify-content: center;
+}
+.user-input-todo {
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+  width: 500px;
+}
+.add-tn {
+  color: white;
+  background-color: #ff8542;
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 0;
+  height: 50px;
+  width: 80px;
+  margin-left: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.todo-item-card {
+  list-style-type: none;
+}
+.title {
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+  width: 200px;
+  align-self: flex-start;
+}
+.delete-btn {
+  color: #ff0b37;
+  border-width: 2px;
+  border-color: #ff0b37;
+  padding: 8px;
+  height: 40px;
+  width: 90px;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  align-self: center;
+  margin-right: 10px;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    width: auto;
+  }
+}
